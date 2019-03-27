@@ -8,7 +8,6 @@ import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
 
@@ -18,8 +17,8 @@ function main() {
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </Provider>
-    , document.querySelector('.app-wrapper'));
+    </Provider>,
+    document.querySelector('.app-wrapper'));
 }
 
 document.addEventListener('DOMContentLoaded', main);

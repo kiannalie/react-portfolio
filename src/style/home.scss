@@ -1,0 +1,70 @@
+// .container {
+//     height: 100vh;
+//     position: relative;
+//     overflow: hidden;
+//     background-size: cover;
+//     background: url("../../static/assets/images/take-two.jpg");
+// }
+
+//   //   display:block;
+//   // position: fixed;
+//   // width: 100vw;
+//   // height: 100vh;
+//   // top: 0;
+//   // left: 0;
+//   // background: url('http://cs627531.vk.me/v627531615/d23c/xqkB4APcT4c.jpg') center no-repeat;
+//   // background-size: cover;
+//   // -moz-transition: 0.1s;-o-transition: 0.1s;-webkit-transition: 0.1s;transition: 0.1s;
+//   // z-index: -1;
+
+
+// html {
+//     margin: 0;
+//     padding: 0;
+//     height: 100%;
+//     width: 100%;
+// }
+
+.photo-main-content { 
+
+    height: 100vh; 
+    background: url("../../static/assets/images/take-4.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    size: cover;
+    position: center;
+    margin-bottom: 50px;
+
+    margin-top: 0;
+}
+
+h1 {
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.photo-main-content__name {
+    //margin-top: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+// .portfolio-main-content {
+
+//     background-color:honeydew;
+
+// }
