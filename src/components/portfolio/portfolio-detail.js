@@ -66,8 +66,10 @@ getPortfolioItem() {
                                 <div className="eyebrow">
                                     <h1> WEBSITE </h1>
                                 </div>
-                                <a href="https://www.elevate.com/"  className="eye" >
-                                    <p> {url} </p>
+                                <a href="hhttps://elevate-marketing-krsp.herokuapp.com/"  target="_blank" className="eye">
+                                    <p> {name}
+                                        <a href={url}  className="eye"></a>
+                                    </p>
                                 </a>
                             </div>
                             <div className="poject-right__tech">
