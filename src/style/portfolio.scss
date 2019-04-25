@@ -22,23 +22,28 @@
         align-items: center;
         height: 100%;
         text-align: center;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 150px;
+        padding-right: 110px;
+        
   
         .subtitle {
-          transition: 1s ease-in-out;
+
+          transition: .8s ease-in-out;
           color: transparent;
+          font-size: 40px;
+          font-weight: bold;
         }
       }
   
       .img-text-wrapper:hover .subtitle {
-        color: $teal;
-        font-weight: 400;
+        color: black;
+        padding-top: 0px;
+
       }
   
-      .logo-wrapper img {
-        width: 50%;
-        margin-bottom: 20px;
-      }
+      // .logo-wrapper {
+      //   width: 50%;
+      //   margin-bottom: 20px;
+      // }
     }
   }

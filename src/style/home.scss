@@ -1,3 +1,21 @@
+.photo-main-content{
+    background-image: url(../../static/assets/images/test-3.jpg);
+    height: 90vh;
+    width: 100vw;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.content-name{
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 5vh;
+
+}
+
+
+
 // .container {
 //     height: 100vh;
 //     position: relative;
@@ -25,46 +43,46 @@
 //     width: 100%;
 // }
 
-.photo-main-content { 
+// .photo-main-content { 
 
-    height: 100vh; 
-    background: url("../../static/assets/images/take-4.jpg");
+//     height: 100vh; 
+//     background: url("../../static/assets/images/take-4.jpg");
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
 
-    size: cover;
-    position: center;
-    margin-bottom: 50px;
+//     size: cover;
+//     position: center;
+//     margin-bottom: 50px;
 
-    margin-top: 0;
-}
-
-h1 {
-
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-.photo-main-content__name {
-    //margin-top: 250px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-// .portfolio-main-content {
-
-//     background-color:honeydew;
-
+//     margin-top: 0;
 // }
+
+// h1 {
+
+//     display: block;
+//     font-size: 2em;
+//     margin-block-start: 0em;
+//     margin-block-end: 0em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//     font-weight: bold;
+// }
+
+// .photo-main-content__name {
+//     //margin-top: 250px;
+
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+// }
+
+// // .portfolio-main-content {
+
+// //     background-color:honeydew;
+
+// // }

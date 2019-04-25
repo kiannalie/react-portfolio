@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react";  
 import ReactModal from "react-modal";
 
 import BlogForm from "../blog/blog-form";
@@ -22,12 +22,14 @@ export default class BlogModal extends Component {
         backgroundColor: "rgba(128,128,128,79%)"
       }
     };
-
-    this.handleSuccessfullFormSubmission = this.handleSuccessfullFormSubmission.bind(this) 
+    
+    this.handleSuccessfullFormSubmission = this.handleSuccessfullFormSubmission.bind(
+      this
+    );
   }
 
   handleSuccessfullFormSubmission(blog) {
-    this.props.handleSuccessfullNewBlogSubmission(blog);
+    this.props.handleSuccessfulNewBlogSubmission(blog);
   }
 
   render() {

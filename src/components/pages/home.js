@@ -9,16 +9,17 @@ export default function() {
         <div className="home-page">
             <header>
                 <div className="photo-main-content">
-                    <div className="photo-main-content__name"> 
-                        <h1> KIANNALIE SARMIENTO </h1>
-
+                    <div className="content-name">
+                        <h1> Kiannalie Sarmiento</h1>
+                        <h2> Full Stack Developer </h2>
                     </div>
+
                 </div>
             </header> 
 
-            {/* <div className="portfolio-main-content"> 
+            <div className="portfolio-main-content"> 
                 <PortfolioContainer/>
-            </div>  */}
+            </div> 
         </div>
     )
 }

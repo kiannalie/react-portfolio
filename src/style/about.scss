@@ -1,14 +1,81 @@
-.about-me { 
+html{
+    height: 100%;
+    overflow: hidden;
+}
 
-    height: 100vh; 
-    background: url("../../static/assets/images/take-two.jpg");
+body{
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.slide {
+    position: relative;
+    padding: 25vh ;
+    min-height: 100vh;
+    width: 100vh;
+    box-sizing: border-box;
+    //ox-shadow: 0 -1px 10px rgba(0,0,0,.7);
+    transform-style: inherit;
+}
 
-    size: cover;
-    position: center;
-    margin-bottom: 50px;
+img {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 320px;
+    height: 240px;
+    transform: translateZ(.10px) scale(.5) translateX(90%) translateY(-100%);
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+    box-shadow: 0 0 8px rgba(0,0,0,.7);
+    
+}
+
+img:nth-of-type(2n) {
+    transform: translateZ(.30px) scale(.60) translateX(-80%) translateY(-40%);
+}
+
+img:nth-of-type(3n) {
+    transform: translateZ(.28px) scale(.30) translateX(60%) translateY(80%);
+}
+
+img:last-of-type {
+    transform: translateZ(.50px) scale(.40) translateX(20%) translateY(-198%);
+    height: 440px;
+}
+
+// .slide:nth-child(2n) .title {
+//     margin-left: 0;
+//     margin-right: auto;
+// }
+
+// .slide:nth-child(2n+1) .title { 
+//     margin-left: auto;
+//     margin-right: 0;
+// }
+// .slide, .slide:before {
+//     background: 50% 50% / cover;  
+//   }
+
+
+.spacer{
+    height: 50vh;
+    width: 100vh;
+}
+
+.about-grid{
+    display: flex;
+}
+
+.about-content{
+    margin-top: 20vh;
+    padding-top: 20vh;
+    padding-right: 10vh;
+    font-size: 20px;
+
 }
