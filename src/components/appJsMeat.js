@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { slide as Menu } from 'react-burger-menu'
 import NavigationContainer from "./navigation/navigation-container";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -93,11 +95,12 @@ export default class Meat extends Component {
       <div className="container">
         <Router>
           <div>
+            
             <NavigationContainer
               loggedInStatus={this.state.loggedInStatus}
               handleSuccessfulLogout={this.handleSuccessfulLogout}
             />
-
+             
             <Switch>
               <Route exact path="/" component={Home} />
 
@@ -111,7 +114,7 @@ export default class Meat extends Component {
                   />
                 )}
               />
-
+             
               <Route path="/about-me" component={About} />
               <Route path="/contact" component={Contact} />
 
@@ -132,10 +135,13 @@ export default class Meat extends Component {
                 component={PortfolioDetail}
               />
               <Route component={NoMatch} />
+              
             </Switch>
+          
           </div>
         </Router>
-      </div>
+     
+      </div> 
     );
   }
 }

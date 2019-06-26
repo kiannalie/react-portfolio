@@ -69,6 +69,7 @@
     "popper.js": "^1.14.4",
     "postcss-loader": "^2.1.6",
     "react": "^16.4.2",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.4.2",
     "react-draft-wysiwyg": "^1.13.2",
     "react-dropzone-component": "^3.2.0",

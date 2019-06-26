@@ -85,7 +85,7 @@ getPortfolioItem() {
                                     <h1> CATEGORY </h1>
                                 </div>
                                 <div className="eye">
-                                    <p> {category} </p>
+                                    <p> Self Poject </p>
                                 </div>
                             </div>
                         </div>    

@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import contactPagePicture from "../../../static/assets/images/ki-2.jpg";
+import contactPagePicture from "../../../static/assets/images/profile.jpg";
 
 export default function() {
     return (

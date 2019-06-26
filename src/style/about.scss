@@ -23,30 +23,70 @@ body{
     transform-style: inherit;
 }
 
-img {
+.mango:first-of-type {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 370px;
+    height: 240px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+
+    transform: translateZ(.30px) scale(.50) translateX(110%) translateY(-70%);
+    // behindlaptop
+}
+
+.mango:nth-of-type(2n) {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 360px;
+    height: 240px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+
+    transform: translateZ(.10px) scale(.80) translateX(40%) translateY(-190%);
+    //laptop on desk
+}
+
+.mango:nth-of-type(3n) {
     position: absolute;
     top: 50%;
     left: 35%;
     width: 320px;
     height: 240px;
-    transform: translateZ(.10px) scale(.5) translateX(90%) translateY(-100%);
     border-radius: 5px;
     background: rgba(0,0,0,.7);
-    box-shadow: 0 0 8px rgba(0,0,0,.7);
-    
+
+    transform: translateZ(.10px) scale(.70) translateX(-100%) translateY(20%);
+    //laptop jacket
 }
 
-img:nth-of-type(2n) {
-    transform: translateZ(.30px) scale(.60) translateX(-80%) translateY(-40%);
+.mango:nth-of-type(4n) {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 320px;
+    height: 240px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+
+    transform: translateZ(.25px) scale(.80) translateX(40%) translateY(90%);
+    //me coding
 }
 
-img:nth-of-type(3n) {
-    transform: translateZ(.28px) scale(.30) translateX(60%) translateY(80%);
-}
+.mango:last-of-type {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 300px;
+    height: 240px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
 
-img:last-of-type {
-    transform: translateZ(.50px) scale(.40) translateX(20%) translateY(-198%);
+    transform: translateZ(.50px) scale(.40) translateX(50%) translateY(-180%);
     height: 440px;
+    //sr pics
 }
 
 // .slide:nth-child(2n) .title {
@@ -64,7 +104,7 @@ img:last-of-type {
 
 
 .spacer{
-    height: 50vh;
+    height: 30vh;
     width: 100vh;
 }
 
@@ -73,7 +113,7 @@ img:last-of-type {
 }
 
 .about-content{
-    margin-top: 20vh;
+    margin-top: 10vh;
     padding-top: 20vh;
     padding-right: 10vh;
     font-size: 20px;
