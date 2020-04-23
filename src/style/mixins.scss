@@ -2,6 +2,7 @@
   cursor: pointer;
   height: 42px;
   font-size: 1em;
+  font-family: 'Playfair Display', serif; 
   font-weight: 500;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
@@ -45,4 +46,23 @@
   display: grid;
   grid-gap: 21px;
   
+}
+
+/* Grow Shadow */
+@mixin grow-shadow(){
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-propery: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+@mixin grow-shadow-parts(){
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.05);
 }

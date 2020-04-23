@@ -47,8 +47,9 @@ getPortfolioItem() {
         return (
             <div className="portfolio-detail"> 
                 <div className="portfolio-detail-pojects"> 
-                    <div className="poject-divider">
-                    </div>
+                    {/* <div className="poject-divider">
+                        
+                    </div> */}
                     
                     <div className="poject-intro-wrapper">
                         <div className="poject-left">
@@ -64,7 +65,7 @@ getPortfolioItem() {
                         <div className="poject-right">
                             <div className="poject-right__link">
                                 <div className="eyebrow">
-                                    <h1> WEBSITE </h1>
+                                    <h1> WEBSITE: </h1>
                                 </div>
                                 <a href="hhttps://elevate-marketing-krsp.herokuapp.com/"  target="_blank" className="eye">
                                     <p> {name}
@@ -82,10 +83,10 @@ getPortfolioItem() {
                             </div>
                             <div className="poject-right__category">
                                 <div className="eyebrow">
-                                    <h1> CATEGORY </h1>
+                                    <h1> CATEGORY: </h1>
                                 </div>
                                 <div className="eye">
-                                    <p> Self Poject </p>
+                                    <p> Personal Project </p>
                                 </div>
                             </div>
                         </div>    

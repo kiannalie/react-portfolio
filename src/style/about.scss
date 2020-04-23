@@ -1,121 +1,300 @@
-html{
-    height: 100%;
-    overflow: hidden;
+.about-page-wrapper{
+    background-image: url(../../static/assets/images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-body{
+.about-page-title{
+    font-family: 'Playfair Display', serif;
+    display:flex;
+    border-bottom-style: solid;
+    border-color: white;
+
+    
+    h1{
+        font-size: 7vh;
+        margin: 10px;
+        padding-left:3vw;
+    }
+}
+
+// highlight
+.about-highlight{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    justify-content: center;
+    padding-bottom: 5vh;
+
+    .highlight-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3vw;
+        padding-right: 1vw;
+        
+    }
+    .highlight-title{
+        border-bottom-style: solid;
+        border-color: #eabfb9;
+        
+    }
+
+    .highlight-photo-reel{
+        width: 70vw;
+    }
+}
+
+//Main content
+.block-header{
+    padding-left: 3vw;
+    padding-top: 20vh;
+    border-bottom-style: solid;
+    border-color: #eabfb9;
+} 
+.about-page-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+    p{
+        font-size: 15px;
+        padding: 15px;
+        text-align: left;
+    }
+}
+
+// .info-three{
+//     margin-left: 6vw;;
+// }
+// .info-two{
+//     margin-left: 6vw;;
+// }
+.info-block-title{
+    margin: 1px;
+    padding-left: 15px;
+    text-align: left;
+}
+.item {
+    width: 600px;
+    height: 200px;
+    margin: 30px auto;
+    background: white;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    background-color: rgba(255, 255, 255, 0.7)
+  }
+
+//spacers
+.spacerdude1{
+    display: block;
+    position: relative;
+    height: 5vh;
     margin: 0;
     padding: 0;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+ 
 }
 
-.slide {
-    position: relative;
-    padding: 25vh ;
-    min-height: 100vh;
-    width: 100vh;
-    box-sizing: border-box;
-    //ox-shadow: 0 -1px 10px rgba(0,0,0,.7);
-    transform-style: inherit;
+.spacerBoi2{
+    width: 100vw;
+    height: 20vh;
 }
 
-.mango:first-of-type {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    width: 370px;
-    height: 240px;
-    border-radius: 5px;
-    background: rgba(0,0,0,.7);
-
-    transform: translateZ(.30px) scale(.50) translateX(110%) translateY(-70%);
-    // behindlaptop
+//parallex
+.hero-section {
+    background-image: url(../../static/assets/images/aboutHeroP1.jpg);
+    padding: 100px;
+    height: 3vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.mango:nth-of-type(2n) {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    width: 360px;
-    height: 240px;
-    border-radius: 5px;
-    background: rgba(0,0,0,.7);
-
-    transform: translateZ(.10px) scale(.80) translateX(40%) translateY(-190%);
-    //laptop on desk
-}
-
-.mango:nth-of-type(3n) {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    width: 320px;
-    height: 240px;
-    border-radius: 5px;
-    background: rgba(0,0,0,.7);
-
-    transform: translateZ(.10px) scale(.70) translateX(-100%) translateY(20%);
-    //laptop jacket
-}
-
-.mango:nth-of-type(4n) {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    width: 320px;
-    height: 240px;
-    border-radius: 5px;
-    background: rgba(0,0,0,.7);
-
-    transform: translateZ(.25px) scale(.80) translateX(40%) translateY(90%);
-    //me coding
-}
-
-.mango:last-of-type {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    width: 300px;
-    height: 240px;
-    border-radius: 5px;
-    background: rgba(0,0,0,.7);
-
-    transform: translateZ(.50px) scale(.40) translateX(50%) translateY(-180%);
-    height: 440px;
-    //sr pics
-}
-
-// .slide:nth-child(2n) .title {
-//     margin-left: 0;
-//     margin-right: auto;
-// }
-
-// .slide:nth-child(2n+1) .title { 
-//     margin-left: auto;
-//     margin-right: 0;
-// }
-// .slide, .slide:before {
-//     background: 50% 50% / cover;  
-//   }
-
-
-.spacer{
-    height: 30vh;
-    width: 100vh;
-}
-
-.about-grid{
+//blockbois
+.about-page-blocks{
     display: flex;
+    flex-direction: row;
+    
 }
 
-.about-content{
-    margin-top: 10vh;
-    padding-top: 20vh;
-    padding-right: 10vh;
-    font-size: 20px;
-
+.about-page-blocks-left{
+    padding: 40px;
 }
+
+.about-page-blocks-right{
+    border-left-style: solid;
+    border-color: #eabfb9;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.blocks-right{
+    border-bottom-style: solid;
+    border-color: #eabfb9;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 5vw;
+}
+
+// img Carousel
+// .highlight-photo-reel{
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .caroTest{
+//     .img{
+//         max-width: 80%;
+//         height: 60px;;
+//     }
+// }
+  
+//old style page code
+// @import 'variables.scss';
+// @import 'mixins.scss';
+// html{
+//     height: 100%;
+//     overflow: hidden;
+//     border: 0px;
+   
+// }
+
+// body{
+//     margin: 0;
+//     padding: 0;
+//     perspective: 1px;
+//     transform-style: preserve-3d;
+//     height: 100%;
+//     overflow-y: scroll;
+//     overflow-x: hidden;
+//     background-color: #f6f6f6;
+// }
+// img{
+//     padding-bottom: 0px;
+//     margin: 0px
+// }
+
+// .about img {
+//     width: 100vw;
+// }
+// .about-main-img{
+//     padding-bottom: 0px;
+// }
+
+// .page-spacer{
+//     height: 20vh;
+//     background-color: $teal;
+//     padding-top: 0px;
+// }
+
+// // meat content of page
+// .top-chart-content{
+//     display: flex;
+// }
+
+// .top-chart-left{
+//     margin: 80px 50px;
+//     @include grow-shadow(); 
+// }
+
+// .top-chart-left:hover, .top-chart-left:focus, .top-chart-left:active {
+//     @include grow-shadow-parts();  
+//     background-color: #A9A9A9; 
+// }
+
+// .top-chart-right{
+//     margin: 80px 40px;
+//     @include grow-shadow(); 
+// }
+
+// .top-chart-right:hover, .top-chart-right:focus, .top-chart-right:active {
+//     @include grow-shadow-parts();  
+//     background-color: #FFFFFF; 
+// }
+
+// .middle-chart-content{
+//     background-image: url('../../static/assets/images/pieChartTwoPage.png');
+//     background-position: center;
+//     margin-left: 50px;
+//     margin-right: 50px;
+//     display: flex;
+//     justify-content: space-between;
+    
+// }
+// .middle-spacer{
+//     width: 230vw;
+// }
+
+// // middle chart 
+// .middle-chart-left{
+//     display: flex;
+//     flex-direction: column;
+//     padding-bottom: 60px;
+    
+// }
+// .middle-left-top{
+//     @include grow-shadow();
+// } 
+
+// .middle-left-top:hover, .middle-left-top:focus, .middle-left-top:active {
+//     @include grow-shadow-parts();  
+//     background-color: #B8B8B8; 
+// }
+
+// .middle-left-bottom{
+//     @include grow-shadow();
+//     margin-top: 20px; 
+// }
+
+// .middle-left-bottom:hover, .middle-left-bottom:focus, .middle-left-bottom:active {
+//     @include grow-shadow-parts();  
+//     background-color: #C5C5C5; 
+// }
+
+
+
+// .middle-right-top{
+//     @include grow-shadow();
+//     // padding-left: 130px;
+//     padding-bottom: 80px;
+// }
+
+// .middle-right-top:hover, .middle-right-top:focus, .middle-right-top:active {
+//     @include grow-shadow-parts();  
+//     background-color: #E2E2E2; 
+// }
+
+// .middle-right-bottom{
+//     @include grow-shadow();
+//     // padding-left: 130px;
+// }
+
+// .middle-right-bottom:hover, .middle-right-bottom:focus, .middle-right-bottom:active {
+//     @include grow-shadow-parts();  
+//     background-color: #E2E2E2; 
+// }
+
+// /*bottom*/
+// .bottom-chart-content{
+//     margin-bottom: 80px;
+// }
+
+// .bottom-chart-main{
+//     margin-left: 50px;
+//     margin-right: 50px;
+//     @include grow-shadow(); 
+
+// }
+
+// .bottom-chart-main:hover, .bottom-chart-main:focus, .bottom-chart-main:active {
+//     @include grow-shadow-parts();  
+//     background-color: #D3D3D3; 
+    
+// }
