@@ -1,7 +1,10 @@
+@import "./stylesheet.css";
+
 //resume page
 .resume-page-wrapper{
   padding-left: 4vh;
   padding-right: 4vh;
+  font-family: 'vogamedium';
 }
 .resume-main-wrapper{
   display: flex;
@@ -39,14 +42,24 @@
     flex-direction: column;
     justify-content: left;
     // padding-right: 1vw;
-
+    letter-spacing: 3px;
 
   }
   &__tech{
     width: 20vw;
+    letter-spacing: 3px;
+    li{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    }
   }
   &__soft{
     width: 20vw;
+    letter-spacing: 3px;
+    li{
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0px;
+      }
   }
 }
 
@@ -66,9 +79,16 @@
   &__title{
     align-content: flex-start;
     width: 40vw;
+    letter-spacing: 3px;
+  }
+  &__content-title{
+    letter-spacing: 3px;
   }
   &__content-experience{
     width: 40vw;
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      }
     
   }
   .link-boys{
@@ -104,6 +124,11 @@
   &__title{
     align-content: flex-start;
     width: 40vw;
+    letter-spacing: 3px;
+    
+  }
+  &__content-title{
+    letter-spacing: 2px;
   }
   .link-in-body {
     text-decoration: none;
@@ -111,6 +136,14 @@
   }
   .link-in-body:hover {
     color: black;   
+  }
+  &__content-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  &__content-award{
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
 //awards
@@ -124,11 +157,24 @@
   &__title{
     align-content: flex-start;
     width: 40vw;
+    letter-spacing: 3px;
+  }
+  &__content-title{
+    letter-spacing: 2px;
+    
+  }
+  &__content-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
   }
   &__content-experience{
     width: 40vw;
-    
+    letter-spacing: 2px;
   }
+  // &__content-info{
+  //   letter-spacing: 1px;
+  // }
   .link-in-body{
     text-decoration: none;
     color: #b86b77;
@@ -150,10 +196,19 @@
   &__title{
     align-content: flex-start;
     width: 40vw;
+    letter-spacing: 3px;
+  }
+  &__content-title{
+    letter-spacing: 2px;
   }
   &__content-experience{
     width: 40vw;
-    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  &__content-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
   }
   .link-in-body{
     text-decoration: none;

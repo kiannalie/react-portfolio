@@ -1,3 +1,4 @@
+@import "./stylesheet.css";
 @import "./variables.scss";
 @import "./mixins.scss";
 @import "./base.scss";
@@ -23,9 +24,6 @@
 @import "./portfolio-detail.scss";
 @import "./contact.scss";
 
-html {
-    font-family: 'Playfair Display', serif;
-}
 
 
 

@@ -28,7 +28,7 @@ const ResumeInfo = () => {
                 </div>
                 {/* <div className="skills-list-wrapper">  */}
                   <div className="skills-container__tech">
-                    <h3> Technologies </h3>
+                    <h2> Technologies </h2>
                     <ul> 
                       <li> HTML5 / CSS3</li>
                       <li> Sass </li>
@@ -45,7 +45,7 @@ const ResumeInfo = () => {
 
                   </div>
                   <div className="skills-container__soft">
-                    <h3> Soft Skills </h3>
+                    <h2> Soft Skills </h2>
                       <ul> 
                         <li> Leadership</li>
                         <li> Team worker </li>
@@ -136,7 +136,7 @@ const ResumeInfo = () => {
                     <h2> Bottega Code School </h2>
                   </div>
                   <div className="edu-container__content-info">
-                    <h3> Full Stack Development Certification / 2019 </h3>
+                    <p> Full Stack Development Certification / 2019 </p>
                   </div>
                   <div className="edu-container__content-award">
                   </div>
@@ -145,7 +145,7 @@ const ResumeInfo = () => {
                     <h2> University of Utah  </h2>
                   </div>
                   <div className="edu-container__content-info">
-                    <h3> Computer Science / Sophmore </h3>
+                    <p> Computer Science / Sophmore </p>
                   </div>
                   <div className="edu-container__content-award">
                       <ul> 
@@ -159,7 +159,7 @@ const ResumeInfo = () => {
                     <h2> Timpanogos High School </h2>
                   </div>
                   <div className="edu-container__content-info">
-                    <h3> Graduated with Honors / 2018 </h3>
+                    <p> Graduated with Honors / 2018 </p>
                   </div>
                   <div className="edu-container__content-award">
                       <ul> 
@@ -186,14 +186,14 @@ const ResumeInfo = () => {
                     <h2> Top Female <a href="https://www.sieutah.org/" target="_blank" className="link-in-body" >Code to Success </a>Graduate Scholarship 2018    </h2>
                   </div>
                   <div className="awards-container__content-info">
-                    <h3> Computer Science </h3>
+                    <p> Computer Science </p>
                   </div>
 
                   <div className="awards-container__content-title">
                     <h2> Utah <a href="https://www.instagram.com/p/Bfji9N3BTIv/" target="_blank" className="link-in-body" >DECA </a> Independent Business Plan Finalist </h2>
                   </div>
                   <div className="awards-container__content-info">
-                    <h3> Business and Marketing </h3>
+                    <p> Business and Marketing </p>
                   </div>
               
                 </div>
@@ -212,7 +212,7 @@ const ResumeInfo = () => {
                     <h2> Portuguese Teacher  </h2>
                   </div>
                   <div className="service-container__content-info">
-                    <h3> São Paulo, Brazil / 2020 </h3>
+                    <p> São Paulo, Brazil / 2020 </p>
                   </div>
 
                   <div className="service-container__content-experience">
@@ -226,9 +226,9 @@ const ResumeInfo = () => {
                     <h2> Orem City Youth Council Co-Chairman </h2>
                   </div>
                   <div className="service-container__content-info">
-                    <h3> Orem, Utah / 2016 - 2017 </h3>
+                    <p> Orem, Utah / 2016 - 2017 </p>
                   </div>
-                  <div className="service-container__content-award">
+                  <div className="service-container__content-experience">
                       <p>
                         Discused city wide concerns, comunity service projects,<br/> and first hand look into how a citys departments work 
                       </p>
@@ -238,7 +238,7 @@ const ResumeInfo = () => {
 
                   </div>
                   <div className="service-container__content-info">
-                    <h3> Orem, Utah / 2016 </h3>
+                    <p> Orem, Utah / 2016 </p>
                   </div>
 
                   <div className="service-container__content-experience">

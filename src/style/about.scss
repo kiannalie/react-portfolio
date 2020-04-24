@@ -1,9 +1,13 @@
+@import "./stylesheet.css";
 .about-page-wrapper{
     background-color: white;
     // background-image: url(../../static/assets/images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'vogamedium';
+    // font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .about-page-title{
@@ -39,18 +43,24 @@
     .highlight-title{
         border-bottom-style: solid;
         border-color: #eabfb9;
+        font-size: 25px;
         
     }
 
     .highlight-photo-reel{
         width: 70vw;
     }
+    .highlight-body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        letter-spacing: normal;
+    }
 }
 
 //Main content
 .block-header{
-    padding-left: 3vw;
-    padding-top: 20vh;
+    padding: 20px;
+    margin-left: 3vw;
     border-bottom-style: solid;
     border-color: #eabfb9;
 } 
@@ -76,31 +86,33 @@
     margin: 1px;
     padding-left: 15px;
     text-align: left;
+    
 }
 .item {
-    width: 600px;
+    width: 800px;
     height: 200px;
-    margin: 30px auto;
+    // margin: 30px auto;
     background: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 3em;
     background-color: rgba(255, 255, 255, 0.7)
   }
 
 //spacers
-.spacerdude1{
-    display: block;
-    position: relative;
-    height: 5vh;
-    margin: 0;
-    padding: 0;
+//.spacerdude1{
+//     display: block;
+//     position: relative;
+//     height: 5vh;
+//     margin: 0;
+//     padding: 0;
  
-}
+// }
 
 .spacerBoi2{
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
 }
 
 //parallex
@@ -122,7 +134,24 @@
 }
 
 .about-page-blocks-left{
-    padding: 40px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    
+    
+    &__info{
+
+        padding-bottom: 45vh;
+        
+    }
+    
+}
+.blocks-left{
+    width: 20vw;
+    padding: 20px;
+    margin-left: 3vw;
 }
 
 .about-page-blocks-right{
@@ -137,11 +166,35 @@
 .blocks-right{
     border-bottom-style: solid;
     border-color: #eabfb9;
-    width: 100vw;
+    width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: left;
     padding-left: 5vw;
+    height: 50vh;
+    a {
+        text-decoration: none;
+        color: #b86b77;
+        
+      }
+}
+
+#contact-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: row;
+}
+.contact-icon{
+   img{
+       width: 10vw;
+       padding: 3vh
+   
+   }
+   
 }
 
 // img Carousel

@@ -7,11 +7,24 @@
         justify-content: center;
         
 
+
+    }
+
+    .link-title{
+        background-color: #eabfb9;;
+        color: black; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 5px;
+        font-size: 5vh;
+        
     }
 
     .btn {
         width: 100%;
-        background-color: #EEEEF0;
+        background-color: #eabfb9;
         color: black;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }

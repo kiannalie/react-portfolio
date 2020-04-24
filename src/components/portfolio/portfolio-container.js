@@ -63,6 +63,9 @@ export default class PortfolioContainer extends Component {
     return (
       
       <div className="homepage-wapper">
+        <div className="link-title"> 
+          <p> Portfolio </p>
+        </div>
         <div className="filter-links">
           <button 
             className="btn"

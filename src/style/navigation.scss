@@ -1,3 +1,5 @@
+@import "./stylesheet.css";
+
 .nav-wrapper {
     background-color: rgba(255, 255, 255, 0.317);
     opacity: 0px;
@@ -6,7 +8,8 @@
     padding: 30px;
 
     margin-bottom: 0px;
-
+    font-family: 'vogamedium';
+    letter-spacing: 3px;
     color: black;
 
     .right-side {
@@ -19,6 +22,17 @@
             &:hover {
                 color: $dark-teal;
             }
+        }
+    }
+    .right-side-icons{
+        display: flex;
+        flex-direction: row;
+        
+        
+        img{
+            width: 2vw;
+            padding-left: 4px;
+        
         }
     }
 
