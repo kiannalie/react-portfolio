@@ -91,7 +91,9 @@ getPortfolioItem() {
                             </div>
                         </div>    
                     </div>
-                    
+                    {/* <div className="portfolio-detail-image">
+                    <img src={banner_image_url} />
+                </div> */}
                 </div>
                 {/* <div className="portfolio-detail-image">
                     <img src={banner_image_url} />

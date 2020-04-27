@@ -42,7 +42,7 @@ const Test = () => {
                         <h1> A little about me  </h1>
                     </div>
                     <div className="highlight-body"> 
-                        <p> They say a picture is worth a thousand words. Go ahead! Scroll away!  </p>
+                        <p> They say a picture is worth a thousand words. Go ahead! Scroll away! >>>  </p>
                     </div>
                     
                 </div>

@@ -40,7 +40,7 @@ const Land = () => {
                 <div className="photo-main-content">
                         <div className="home-main-text-block">
                             <div id="home-main-text" class="transpary" >
-                                <h5 className="open-tag"> &lt; </h5>
+                                <h4 className="open-tag"> &lt; </h4>
                                 <h1 data-aos="fade-up" > Kiannalie </h1>
                                 <p>  Welcome, lets build an experience together </p>
                                 {/* <h3> let's build an experience together </h3> */}
