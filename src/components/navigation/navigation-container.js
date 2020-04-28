@@ -38,10 +38,13 @@ const NavigationComponent = props => {
   };
 
   return (
-       
+    <div className="nav">
+        <label htmlFor="toggle" className="burger">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+         
         <div className="nav-wrapper"> 
             <div className="left-side">
-              <div className="nav-link-wrapper">
+              <div className="nav-link-wrapper" >
                 <NavLink exact to="/" activeClassName="nav-link-active">
                   Home
                 </NavLink>
@@ -69,8 +72,9 @@ const NavigationComponent = props => {
                 dynamicLink("/portfolio-manager", "Portfolio Manager")
               ) : null}
             </div>
-
+            
             <div className="right-side">
+            
               <div className="right-side-icons">
               <div className="icon" > 
                 <a href="https://github.com/kiannalie" target="_blank" ><img src={github}/></a>
@@ -94,9 +98,12 @@ const NavigationComponent = props => {
                 <FontAwesomeIcon icon="sign-out-alt"/>
                 </a>
               ) : null}
+
+              
+
             </div>
         </div>
-      
+        </div>  
 
   );
 };

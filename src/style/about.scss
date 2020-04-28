@@ -1,4 +1,222 @@
 @import "./stylesheet.css";
+
+@media only screen and (max-width: 600px){
+    .about-page-wrapper{
+        background-color: white;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'vogamedium';
+        letter-spacing: 3px;
+    }
+    
+    .about-page-title{
+        font-family: 'Playfair Display', serif;
+        display:flex;
+        border-bottom-style: solid;
+        border-color: white;
+    
+        
+        h1{
+            font-size: 7vh;
+            margin: 10px;
+            padding-left:3vw;
+        }
+    }
+    
+    // highlight
+    .about-highlight{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5vh;
+        justify-content: center;
+        padding-bottom: 5vh;
+    
+        .highlight-text-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 3vw;
+            padding-right: 1vw;
+            
+        }
+        .highlight-title{
+            border-bottom-style: solid;
+            border-color: #eabfb9;
+            font-size: 25px;
+            
+        }
+    
+        .highlight-photo-reel{
+            // .element.style{
+            //     width: 250px; 
+            //     max-width: 250px;
+            // }
+        }
+
+        .BrainhubCarousel__trackContainer{
+            // .element.style{
+            //     width: 0px; 
+            //     max-width: 0px;
+                
+            // }
+            .BrainhubCarousel__track{
+                justify-content: space-around;
+              
+                li{
+                    padding: 10px;
+
+                }
+            }
+        }
+        .highlight-body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            letter-spacing: normal;
+        }
+    }
+    
+    //Main content
+    .block-header{
+        padding: 20px;
+        margin-left: 3vw;
+        border-bottom-style: solid;
+        border-color: #eabfb9;
+    } 
+    .about-page-blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        
+        p{
+            font-size: 15px;
+            padding: 15px;
+            text-align: left;
+        }
+    }
+    
+    .info-block-title{
+        margin: 1px;
+        padding-left: 15px;
+        text-align: left;
+        
+    }
+    .item {
+        width: 300px;
+        height: 200px;
+        background: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 3em;
+        background-color: rgba(255, 255, 255, 0.7)
+      }
+    
+    
+    .spacerBoi2{
+        width: 100%;
+        height: 10vh;
+    }
+    
+    //parallex
+    .hero-section {
+        background-image: url(../../static/assets/images/dream.plan.do.phonepng.png);
+        padding: 100px;
+        height: 3vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    //infos
+
+    .info-three{
+        height: 70vh;
+    }
+    //blockbois
+    .about-page-blocks{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .about-page-blocks-left{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        
+        
+        &__info{
+    
+            padding-bottom: 120vh;
+            
+        }
+        
+    }
+    .blocks-left{
+        width: 20vw;
+        padding: 20px;
+        margin-left: 3vw;
+    }
+    
+    .about-page-blocks-right{
+        border-left-style: solid;
+        border-color: #eabfb9;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    .blocks-right{
+        border-bottom-style: solid;
+        border-color: #eabfb9;
+        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: 5vw;
+        height: 130vh;
+        a {
+            text-decoration: none;
+            color: #b86b77;
+            
+          }
+    }
+    
+    #contact-block{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-links{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-icon{
+       img{
+           width: 10vw;
+           padding: 3vh
+       
+       }
+       
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .BrainhubCarousel__trackContainer{
+        .element.style{
+            // width: 0px; 
+            // max-width: 0px;
+            
+        }
+        ul{
+            margin-left: 0px;
+        }
+    }
 .about-page-wrapper{
     background-color: white;
     // background-image: url(../../static/assets/images/augustine-wong-li0iC0rjvvg-unsplash.jpg);
@@ -76,12 +294,6 @@
     }
 }
 
-// .info-three{
-//     margin-left: 6vw;;
-// }
-// .info-two{
-//     margin-left: 6vw;;
-// }
 .info-block-title{
     margin: 1px;
     padding-left: 15px;
@@ -91,7 +303,6 @@
 .item {
     width: 800px;
     height: 200px;
-    // margin: 30px auto;
     background: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,15 +311,6 @@
     background-color: rgba(255, 255, 255, 0.7)
   }
 
-//spacers
-//.spacerdude1{
-//     display: block;
-//     position: relative;
-//     height: 5vh;
-//     margin: 0;
-//     padding: 0;
- 
-// }
 
 .spacerBoi2{
     width: 100vw;
@@ -196,7 +398,7 @@
    }
    
 }
-
+}
 // img Carousel
 // .highlight-photo-reel{
 //     display: flex;

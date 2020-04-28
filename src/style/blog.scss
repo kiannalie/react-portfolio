@@ -1,8 +1,113 @@
+@import "./stylesheet.css";
+
+@media only screen and (max-width: 600px){
+  .space-blog{
+    padding-left: 10vw;
+  }
+  .blog-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'vogamedium';
+
+    
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-left-style: solid;
+    border-color: #eabfb9;
+    font-family: 'vogamedium';
+    
+    padding-left: 10vw;
+  
+  
+    .admin-blog-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    
+      a {
+        margin-left: 15px;
+        cursor: pointer;
+        font-family: 'vogamedium';
+      }
+    }
+  
+    .new-blog-link {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      
+  
+      a {
+        font-size: 3em;
+        font-family: 'vogamedium';
+        cursor: pointer;
+        color: $teal;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        transition: 0.5s ease-in-out;
+  
+        &:hover {
+          color: $dark-teal;
+        }
+      }
+    }
+  
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      //padding-left: 3vw;
+  
+      a {
+        text-decoration: none;
+        color: $teal;
+        transition: 0.5s ease-in-out;
+  
+        &:hover {
+          color: $dark-teal;
+        }
+      }
+  
+      h1 {
+        font-size: 1.5em;
+        font-family: 'vogamedium';
+      }
+  
+      .featured-image-wrapper {
+        img {
+          margin: 15px 0px;
+          width: 100%;
+          height: 350px;
+          border-radius: 5px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  
+  .spacerdude{
+    display: block;
+    position: relative;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 600px){
+ 
 .blog-line{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-family: 'vogamedium';
 }
 .blog-container {
   display: flex;
@@ -11,6 +116,7 @@
   position: relative;
   border-left-style: solid;
   border-color: #eabfb9;
+  font-family: 'vogamedium';
 
 
   .admin-blog-wrapper {
@@ -22,6 +128,7 @@
     a {
       margin-left: 15px;
       cursor: pointer;
+      font-family: 'vogamedium';
     }
   }
 
@@ -33,6 +140,7 @@
 
     a {
       font-size: 3em;
+      font-family: 'vogamedium';
       cursor: pointer;
       color: $teal;
       margin-right: 15px;
@@ -63,6 +171,7 @@
 
     h1 {
       font-size: 1.5em;
+      font-family: 'vogamedium';
     }
 
     .featured-image-wrapper {
@@ -83,4 +192,5 @@
   height: 30vh;
   margin: 0;
   padding: 0;
+}
 }

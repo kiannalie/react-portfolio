@@ -1,5 +1,118 @@
 @import "./stylesheet.css";
 
+@media only screen and (max-width: 600px){
+    #home-main-text h1 {
+        font-size: 20vw;
+        
+    } 
+
+    .home-page{
+        font-family: 'vogamedium';
+    }
+    .photo-main-content{
+      background-image: url(../../static/assets/images/closeTag3copy.png);
+      background-repeat: no-repeat;
+    
+
+    height: 90vh;
+    width: 100%;
+    min-height: 100%;
+    background-position: right ;
+    
+        
+    }
+    .open-tag{
+        padding: 0px;
+        margin: 0px;
+        color: #eabfb9;
+    }
+    
+    .home-main-text-block{
+        padding-right: 10vw;
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        padding-left: 3vw
+    
+    }
+    
+    #home-main-text{
+        text-align: left;
+        font-size: 13vh;
+        letter-spacing: 17px;
+        padding-bottom: 10vh;
+        
+        font-weight: bold;
+        color: black;
+        h1{
+            padding: 0px
+        }
+        p{
+            font-size: 4vh;
+            letter-spacing: 6px;
+            margin-top: 0vh
+        }
+    }
+    
+    
+    //about me part
+    .home-about-me{
+        height: 60vh;
+        // width: 100vw;
+        padding-top: 20vh;
+        padding-bottom: 15vh;
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+    .about-me-block{
+        background-image: url(../../static/assets/images/augustine-wong-li0iC0rjvvg-unsplash.jpg); 
+        background-size: cover;
+        background-position: center;
+    }
+    .about-me-block-title{
+        display: flex;
+        justify-content: center;
+        border-bottom-style: solid;
+        border-color: white;
+    
+        letter-spacing: 8px;
+        font-size: 3vh;
+    }
+    .home-about-me-block{
+        
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        
+    }
+    
+    .home-about-me-photo img{
+        width:8vw;
+        height: auto;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    
+    .home-about-me-text{
+        padding-right: 5vw;
+    }
+    
+    //contact
+    .contact-me{
+        height: 70vh;
+    
+        padding-top: 30vh;
+        padding-bottom: 15vh;
+    
+    }
+}
+
+@media only screen and (min-width: 600px){
 .home-page{
     // background-image: url(../../static/assets/images/screenLargeTestFour.png);
     // // background-position: center;
@@ -11,7 +124,7 @@
     font-family: 'vogamedium';
 }
 .photo-main-content{
-    background-image: url(../../static/assets/images/closeTag3.png);
+    background-image: url(../../static/assets/images/closeTag4.png);
     background-repeat: no-repeat;
     
 
@@ -117,7 +230,7 @@
     padding-bottom: 15vh;
 
 }
-
+}
 // .container {
 //     height: 100vh;
 //     position: relative;

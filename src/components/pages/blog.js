@@ -131,6 +131,7 @@ class Blog extends Component {
     });
 
     return (
+      <div className="space-blog">
       <div className="blog-container">
         <BlogModal
           handleSuccessfulNewBlogSubmission={
@@ -155,6 +156,7 @@ class Blog extends Component {
             <FontAwesomeIcon icon="spinner" spin />
           </div>
         ) : null}
+      </div>
       </div>
     );
   }

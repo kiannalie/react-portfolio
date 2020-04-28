@@ -1,5 +1,100 @@
 @import "./stylesheet.css";
 
+
+label{
+    padding-left: 5vw;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    label{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-wrapper > .left-side {
+        display: none; 
+    }
+    .left-side{
+        // display: flex;
+        // flex-direction: column;
+        text-align: center;
+        width: 100%; 
+    }
+    .nav-link-wrapper {
+        height: 22px;
+        width:100%;
+        padding-top: 10px;
+        border-bottom: 1px solid transparent;
+        transition: 0.5s ease-in-out;
+        margin-right:20px;
+        text-transform: uppercase;
+        font-size:0.9em;
+        margin-bottom: 0px;
+        font-family: 'vogamedium';
+        letter-spacing: 3px;
+        color: black;
+        background-color: rgb(228, 228, 228);
+
+        a {
+            color: black;
+            text-decoration: none;
+            &:hover {
+                color:black;
+                border-bottom: 1px solid black;
+            }
+        }
+        .nav-link-active {
+            border-bottom: 1px solid black;
+            color: black;
+        }
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    // .nav{
+    //     display: flex;
+    //     flex-direction: row;
+    // }
+    
+    // .right-side {
+    //     padding-left: 60vw;
+    //     padding-top: 3vh;
+    //     a {
+    //         margin-right: 15px;
+    //         cursor: pointer;
+    //         color: black;
+    //         transition: .5s ease-in-out;
+
+    //         &:hover {
+    //             color: $dark-teal;
+    //         }
+    //     }
+    // }
+    // .right-side-icons{
+    //     display: flex;
+    //     flex-direction: row;
+        
+    //     img{
+    //         width: 5vw;
+    //     }
+    // }
+
+    #toggle:checked + .nav-wrapper > .left-side {
+        display: block;
+    }
+}
+
+
+// tablet and laptop size and up
+@media only screen and (min-width: 600px){
 .nav-wrapper {
     background-color: rgba(255, 255, 255, 0.317);
     opacity: 0px;
@@ -13,6 +108,7 @@
     color: black;
 
     .right-side {
+
         a {
             margin-left: 15px;
             cursor: pointer;
@@ -63,4 +159,5 @@
             color: black;
         }
     }
+}
 }
