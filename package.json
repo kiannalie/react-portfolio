@@ -2,9 +2,6 @@
   "name": "react-redux-router",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
-  "engines": {
-    "node": "12.16.x"
-  },
   "scripts": {
     "preinstall": "npm set audit false",
     "postinstall": "cp env.example.js env.js",
@@ -36,7 +33,7 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
-    "@brainhubeu/react-carousel": "^1.13.38",
+    "@brainhubeu/react-carousel": "^1.13.40",
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
@@ -69,7 +66,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jquery": "^3.3.1",
     "moment": "2.24.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.14.0",
     "popper.js": "^1.14.4",
     "postcss-loader": "^2.1.6",
     "react": "^16.4.2",

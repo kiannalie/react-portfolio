@@ -4,4 +4,3 @@ module.exports = {
     port: 3000
   }
 };
-// only can use localhost 3000 or 8080
