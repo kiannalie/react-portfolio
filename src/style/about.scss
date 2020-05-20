@@ -1,6 +1,8 @@
 @import "./stylesheet.css";
 
-@media only screen and (max-width: 600px){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 700px){
     .about-page-wrapper{
         background-color: white;
         background-position: center top;
@@ -102,7 +104,7 @@
         
     }
     .item {
-        width: 300px;
+        width: 230px;
         height: 200px;
         background: white;
         text-align: center;

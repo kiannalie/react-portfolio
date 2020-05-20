@@ -1,6 +1,8 @@
 @import "./stylesheet.css";
 
-@media only screen and (max-width: 600px){
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 700px){
   //resume page
 .resume-page-wrapper{
   padding-left: 4vh;
