@@ -50,18 +50,16 @@ and (max-device-width : 700px){
         }
     
         .highlight-photo-reel{
-            // .element.style{
-            //     width: 250px; 
-            //     max-width: 250px;
-            // }
+            // width: 90vw;
         }
 
+        .BrainhubCarousel__track {
+            .BrainhubCarousel__track--draggable{
+                width: 400px;
+            }
+        }
         .BrainhubCarousel__trackContainer{
-            // .element.style{
-            //     width: 0px; 
-            //     max-width: 0px;
-                
-            // }
+            
             .BrainhubCarousel__track{
                 justify-content: space-around;
               
