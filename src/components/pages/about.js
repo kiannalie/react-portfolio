@@ -65,6 +65,16 @@ const Test = () => {
                     </Carousel>
                     
                 </div>
+                <div className="highlight-photo-grid">
+                     <img src={imageOne} />
+                    <img src={imageTwo} />
+                    <img src={imageThree} />
+                    <img src={imageFour} />
+                    <img src={imageFive} />
+                    <img src={imageSeven} />
+                    <img src={imageEight} />
+                    <img src={imageSix} />
+                </div>
             </div>
 
             <div className="hero-section">   
@@ -80,17 +90,17 @@ const Test = () => {
                         <div className="about-page-blocks-left__info ">
                             <h1> how coding came to be</h1>
                         </div>
-                        <div className="about-page-blocks-left__info ">
+                        <div className="about-page-blocks-left__info-mid ">
                             <h1> behind the codes </h1>
                         </div>
-                        <div className="about-page-blocks-left__info ">
+                        <div className="about-page-blocks-left__info-last ">
                             <h1> contact </h1>
                         </div>
                     </div>
                 </div>
 
             <div className="about-page-blocks-right">
-                <div className="blocks-right"> 
+                <div className="blocks-right-one" id="first-block"> 
                     <div className="info-three" > 
                         <div className="item" data-aos="fade-up" >
                         
@@ -100,7 +110,7 @@ const Test = () => {
                         </div>
                     </div> 
                 </div>
-                <div className="blocks-right"> 
+                <div className="blocks-right-two" id="second-block"> 
                     <div className="info-two" > 
                         <div className="item"  data-aos="fade-up">
                             {/* <h4 className="info-block-title"> Classy x Tech </h4> */}
@@ -112,7 +122,7 @@ const Test = () => {
 
                 <div className="spacerdude1"> </div>
 
-                <div className="blocks-right"> 
+                <div className="blocks-right-three" id="third-block"> 
                     <div className="info-three"> 
                         <div className="item" id="contact-block"data-aos="fade-up">
                             <div className="contact-info">

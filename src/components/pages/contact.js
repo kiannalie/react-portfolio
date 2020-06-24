@@ -67,7 +67,7 @@ const ResumeInfo = () => {
                   <div className="work-container__title">
                     <div className="linedude">
                       <div data-aos="fade-up" className="linegirl">
-                      <h1> Work Experience : </h1>
+                      <h1> Work Experience: </h1>
                       </div>
                     </div>
                   </div>
@@ -127,7 +127,7 @@ const ResumeInfo = () => {
                 <div className="edu-container__title">
                   <div className="linedude">
                     <div data-aos="fade-up" className="linegirl"> 
-                      <h1> Education : </h1>
+                      <h1> Education: </h1>
                     </div>
                   </div>
                 </div>
